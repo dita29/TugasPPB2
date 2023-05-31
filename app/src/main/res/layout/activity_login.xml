@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/purple"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="20dp"
+tools:context=".LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/white" />
+
+
+<TextView
+    android:id="@+id/tv_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-20px"
+    android:text="Selamat Datang"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:fontFamily="@font/poppins_medium" />
+
+<ImageView
+    android:id="@+id/iv_1"
+    android:layout_width="600px"
+    android:layout_height="600px"
+    android:src="@drawable/cing"
+    android:scaleType="centerCrop"
+    android:layout_marginBottom="30px"/>
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="500px"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/blue"
+    android:fontFamily="@font/poppins_medium"
+    android:text="LOGIN"
+    android:textStyle="bold"/>
+
+</LinearLayout>

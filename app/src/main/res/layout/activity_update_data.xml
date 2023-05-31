@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".UpdateData">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Mengubah"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Diri Anda."
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="-20px"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/new_et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Baru"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/new_et_nip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIP Baru"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin :"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_radiogroup"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/new_rb_laki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingLeft="10dp"
+            android:text="Laki - Laki"
+            android:textColor="@color/grey3"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/new_rb_perempuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Perempuan"
+            android:textColor="@color/grey3"
+            android:textSize="18sp"
+            android:paddingLeft="10dp" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:background="@drawable/style_spinner"
+        android:id="@+id/new_sp_jabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="370px"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/poppins_medium"
+        android:text="UPDATE"
+        android:textStyle="bold" />
+
+</LinearLayout>

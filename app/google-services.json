@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133625066690",
+    "firebase_url": "https://tugasppb2-1979a-default-rtdb.firebaseio.com",
+    "project_id": "tugasppb2-1979a",
+    "storage_bucket": "tugasppb2-1979a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133625066690:android:22c596f73cc9efdafcf75b",
+        "android_client_info": {
+          "package_name": "com.example.tugasppb2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133625066690-hgmgk5uedkc1daul74vofbr4ae1nf0d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr9XRaTpHeBt54ZDYhXgkF6HytoAwS2_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133625066690-96fkq83rkiu5ac1enfi3mq34gkgr2sjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
